@@ -5,5 +5,7 @@
 * columns can be of type sting & int
 * string field type has constraint of having length max 20 chaaracters.
 * int field type has range from -1024 to 1024
+* mark field as mandatory in a table
 * insert a row in a table
 * print the rows from the table
+* search query based on a column value in the table
