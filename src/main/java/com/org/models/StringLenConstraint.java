@@ -3,7 +3,7 @@ package src.main.java.com.org.models;
 public class StringLenConstraint implements Constraints {
 
     Field field;
-    int maxLen;
+    private int maxLen;
 
     public StringLenConstraint(Field field, int _maxLen) {
         this.field = field;

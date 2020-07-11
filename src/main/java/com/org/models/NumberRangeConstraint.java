@@ -16,8 +16,6 @@ public class NumberRangeConstraint implements Constraints {
     @Override
     public boolean check(Object o) {
         Integer num=(Integer)o;
-        if(num<minValue || num> maxValue)
-            return false;
-        return true;
+        return num >= minValue && num <= maxValue;
     }
 }
